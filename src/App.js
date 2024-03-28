@@ -33,9 +33,11 @@ const App = () => {
   return (
     <div className="App">
       <h5>Countdown Aurora's Engagement</h5>
-      <GiDiamondRing className="FirstRing" />
-      <GiDiamondRing className="SecondRing" />
-      <p>Venue: Harvest House, Ismail Estate</p>
+      <span className="RingWrapper">
+        <GiDiamondRing className="FirstRing" />
+        <p>Venue: Harvest House, Ismail Estate</p>
+        <GiDiamondRing className="FirstRing" />
+      </span>
       <img src={Aurora} alt="" />
       <div className="CountdownClock">
         <div className="CountdownTimeDetails">

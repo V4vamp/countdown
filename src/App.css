@@ -24,29 +24,17 @@
     margin-top: 25px;
   }
 }
+.RingWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
 .FirstRing {
-  height: 72px;
-  width: 72px;
-  position: absolute;
-  left: 27%;
-  top: 15%;
-  color: gold;
-  transform: rotate(315deg);
-}
-.SecondRing {
-  height: 72px;
-  width: 72px;
-  position: absolute;
-  right: 27%;
-  bottom: 7%;
-  color: gold;
-  transform: rotate(145deg);
-}
-button {
   height: 48px;
-  cursor: pointer;
-  margin-top: 20px;
-  font-size: 16px;
+  width: 48px;
+  color: gold;
 }
 .CountdownClock {
   display: flex;
